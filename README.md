@@ -13,10 +13,14 @@ For each test case, print the minimum time in which all array elements will beco
 1<=A[i],K<=10^6
 
 # Sample Input
-     2
+     2 
+     
    3 4
+   
  1 2 5
-   3 2 
+ 
+   3 2
+   
  2 5 5
 # Sample Output
 # 3
