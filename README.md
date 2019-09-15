@@ -77,7 +77,7 @@ Print a single line containing the minimum sum.
  
 # Sample Output
 11
-# --------------------------------------------------------------------
+# -------------------------------------------------------------------
 
 # 5. Hacker and traffic lights   
 Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a professional hacker and he can get into the system and change the state of the light. His planet has different types of traffic lights such that there are N bulbs on the traffic board and only when all of them are green(G) the cars can pass. there are 2 other states also which the bulb can show; i.e. Red(R) & Yellow(Y). Note that the lights are designed such that they follow a state change cyclic pattern as follows:
