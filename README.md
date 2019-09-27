@@ -4,17 +4,17 @@ Micro purchased an array A having N integer values. After playing it for a while
 # <h3>Input</h3>
 First line consists of a single integer, T, denoting the number of test cases. First line of each test case consists of two space separated integers denoting N and K.Second line of each test case consists of N space separated integers denoting the array A. 
 
-# Output 
+# <h3>Output</h3> 
 For each test case, print the minimum time in which all array elements will become greater than or equal to K. Print a new line after each test case.
 
-# Constraints
+# <h3>Constraints</h3>
 1<=T<=5
 
 1<=N<=10^5
 
 1<=A[i],K<=10^6
 
-# Sample Input
+# <h3>Sample Input</h3>
 2 
    
 3 4
@@ -25,7 +25,7 @@ For each test case, print the minimum time in which all array elements will beco
    
 2 5 5
 
-# Sample Output
+# <h3>Sample Output</h3>
 3
 
 0
@@ -35,47 +35,47 @@ For each test case, print the minimum time in which all array elements will beco
 Students have become secret admirers of SEGP. They find the course exciting and the professors amusing. After a superb Mid Semester examination, it’s now time for the results. The TAs have released the marks of students in the form of an array, where arr[i] represents the marks of the ith student. 
 Since you are a curious kid, you want to find all the marks that are not smaller than those on its right side in the array. 
  
-# Input Format 
+# <h3>Input Format</h3> 
 The first line of input will contain a single integer n denoting the number of students. 
 The next line will contain n space separated integers representing the marks of students. 
 
-# Output Format 
+# <h3>Output Format</h3> 
 Output all the integers separated in the array from left to right that are not smaller than those on its right side.
 
-# Constraints 
+# <h3>Constraints</<h3>h3> 
 1 <= n <= 1000000 
 
 0 <= arr[i] <= 10000 
 
-# Sample Input
+# <h3>Sample Input</h3>
 6
 
 16 17 4 3 5 2
 
-# Saample Output
+# <h3>Saample Output</h3>
 17 5 2
 # -------------------------------------------------------------------
 
 # 3. Frustrated coders   
 There are N frustrated coders standing in a circle with a gun in their hands. Each coder has a skill value S[ i ] and he can only kill those coders that have strictly less skill than him. One more thing, all the guns have only 1 bullet. This roulette can take place in any random order. Fortunately, you have the time stone (haaan wo harre wala) and you can see all possible outcomes of this scenario. Find the outcome where the total sum of the remaining coder's skill is minimum. Print this sum. 
 
-# Input Format 
+# <h3>Input Format</h3> 
 The first line contains N the no. of coders 
 The next line contains N  elements where the ith element is theS[ i ] of ith coder.
 
-# Output Format 
+# <h3>Output Format</h3> 
 Print a single line containing the minimum sum. 
 
-# Constraints 
+# <h3>Constraints</h3> 
 1<= N <= 1000000 
 1<=S[ i ]<=1000 
  
-# Sample Input
+# <h3>Sample Input</h3>
 6
  
 1 7 2 2 4 4
  
-# Sample Output
+# <h3>Sample Output</h3>
 11
 # -------------------------------------------------------------------
 
@@ -86,20 +86,20 @@ R------>Y------>G------->R
 
 Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1)  by increasing their state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the minimum time to do the process as Zolo is getting late for work. 
 
-# Input Format 
+# <h3>Input Format</<h3>h3> 
 The first line contains N K The second line describes the current status of each bulb as an array whose each element can either be G or Y or R. 
 
-# Output Format 
+# <h3>Output Format</h3> 
 Print the minimum amount of time required to clear the traffic jam".
 
-# Constraints 
+# <h3><h3>Constraints</h3> 
 1<=N, K<=100000. 
 
-# Sample Input
+# <h3>Sample Input</h3>
 4 2
 
 R Y G Y
 
-# Sample Output
+# <h3>Sample Output</h3>
 5
 # -------------------------------------------------------------------
