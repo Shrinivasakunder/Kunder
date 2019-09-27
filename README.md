@@ -42,7 +42,7 @@ The next line will contain n space separated integers representing the marks of 
 # <h3>Output Format</h3> 
 Output all the integers separated in the array from left to right that are not smaller than those on its right side.
 
-# <h3>Constraints</<h3>h3> 
+# <h3>Constraints</h3> 
 1 <= n <= 1000000 
 
 0 <= arr[i] <= 10000 
@@ -86,7 +86,7 @@ R------>Y------>G------->R
 
 Once Zolo gets into the system he can select any position i and update all elements between i to min(N, i + K - 1)  by increasing their state by 1.This whole process takes 1 sec and he can repeat this process any no. of times until he gets all lights = G . Find the minimum time to do the process as Zolo is getting late for work. 
 
-# <h3>Input Format</<h3>h3> 
+# <h3>Input Format</h3> 
 The first line contains N K The second line describes the current status of each bulb as an array whose each element can either be G or Y or R. 
 
 # <h3>Output Format</h3> 
