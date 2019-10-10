@@ -79,6 +79,34 @@ Print a single line containing the minimum sum.
 11
 # -------------------------------------------------------------------
 
+# 4. Pink Floyd and Happiness    
+Pink is sad because of some reasons, he wants to cheer up by listening to some songs from his favorite band, Pink Floyd. 
+ 
+There are N records and Pink will be happy if he listens to them in the ascending order, i.e., first the song No. 1, then No.2 and so on (He has to listen to all the N songs to become Happy). 
+ 
+Pink is delivered his records in some given order, he can either add the record to the Playlist in the delivered order or put some on another table. After being put on the table only the topmost record can be added to the playlist at any time. 
+ 
+Print whether Pink will be sad or happy after the delivery of the records. 
+
+# <h3>Input Format</h3>
+N - Number of records followed  by 
+N numbers- order of records.
+
+# <h3>Output Format</h3> 
+Print "Happy" if the playlist has songs from 1 to N in order else "Sad". 
+
+# <h3>Constraints</h3> 
+1<=N<=10^5 
+The array consists of 1-N distinct numbers. 
+
+# <h3>Sample Input</h3>
+5
+
+1 2 4 3 5
+
+# <h3>Sample Output</h3>
+Happy
+# -------------------------------------------------------------------
 # 5. Hacker and traffic lights   
 Zolo is stuck in a traffic due to dysfunctional traffic light. Zolo is a professional hacker and he can get into the system and change the state of the light. His planet has different types of traffic lights such that there are N bulbs on the traffic board and only when all of them are green(G) the cars can pass. there are 2 other states also which the bulb can show; i.e. Red(R) & Yellow(Y). Note that the lights are designed such that they follow a state change cyclic pattern as follows:
 
